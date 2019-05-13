@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="en-us">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Trivia Game </title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/reset.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Basic Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
 
-<div class="container">
-<div class="main">
-<div class="row start-page">
-    <div class="row img-initial col-sm-8"></div>
-    <div class="row">
-        <div class="start-btn">Start</div>
+    <div class="container">
+
+        <h1>TGame</h1>
+
+        <div id="quiz" class="main-content">
+
+            <button id="start" class="btn">Start</button>
+
+            <!-- Time Remaining -->
+            <div id="time"></div>
+
+            <!-- Questions & Answers -->
+            <div id="question1"></div>
+            <div id="answer1"></div>
+            <div id="question2"></div>
+            <div id="answer2"></div>
+            <div id="question3"></div>
+            <div id="answer3"></div>
+            <div id="question4"></div>
+            <div id="answer4"></div>
+            <div id="question5"></div>
+            <div id="answer5"></div>
+            <div id="question6"></div>
+            <div id="answer6"></div>
+            <div id="question7"></div>
+            <div id="answer7"></div>
+            <div id="submit"></div>
+
+            <!-- Results -->
+            <div id="resultsMessage"></div>
+            <div id="correct"></div>
+            <div id="incorrect"></div>
+            <div id="unanswered"></div>
+
+        </div>
+
     </div>
-</div>
 
-<div class="row questions-page">
-    <div class='timer text-left col-sm-3'></div>
-    <div class="question col-sm-6"></div>
-    <div class='score text-right col-sm-3'>
-        <div class="right"></div>
-        <div class="wrong"></div>
-    </div>
-</div>
-<div class="row answers"></div>
-<div class="row reset-button"></div>
-</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
-</div>
-
-<script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
