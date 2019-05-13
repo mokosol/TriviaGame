@@ -1,67 +1,67 @@
 // Questions and answers Array
 var questions = [
 {
-question: 'What does doctype in HTML do?',
+question: 'Who won most championship in NBA?',
 answers: [
-{ answer: 'A. Tells the browser how to render the HTML markup', value: true },
-{ answer: 'B. Loads all references to external JavaScript files', value: false },
-{ answer: 'C. Adds CSS styles to the HTML page', value: false },
-{ answer: "D. It doesn't do anything it's just there as a comment to other developers", value: false }
+{ answer: 'A. Laker', value: false },
+{ answer: 'B. Celtics ',value: true },
+{ answer: 'C. Knicks', value: false },
+{ answer: "D. Heat", value: false }
 ]
 },
 {
-question: 'What is NOT an HTML5 element?',
+question: 'who is best shooter in NBA?',
 answers: [
 
-{ answer: 'audio', value: false },
-{ answer: 'canvas', value: false },
-{ answer: 'block', value: true },
-{ answer: 'section', value: false },
+{ answer: 'curry', value: true },
+{ answer: 'thomson', value: false },
+{ answer: 'harden', value: false },
+{ answer: 'towns', value: false },
 ]
 },
 {
-question: 'How can you make a script run asynchronous?',
+ question:'who won NBA title in 2018?',
 answers: [
-{ answer: 'script async', value: true },
-{ answer: 'asynchronous', value: false },
-{ answer: 'async script', value: false },
-{ answer: 'script asynchronous', value: false }
+{ answer: 'Warriors',value: true },
+{ answer: 'Lakers', value: false },
+{ answer: 'Thunder', value: false },
+{ answer: 'Nuggets', value: false }
 ]
 },
 {
-question: 'What is the difference between classes and IDs in CSS?',
+ question:'Who is all time NBA scoring leader?',
 answers: [
-{ answer: 'IDs can only be used once in the HTML', value: true },
-{ answer: 'IDs can be accessed by JavaScript', value: false },
-{ answer: 'Classes are used on children elements', value: false },
-{ answer: "Classes can't be added to the body element", value: false }
+{ answer: 'Kobe', value: false },
+{ answer: 'Jordan', value: false },
+{ answer: 'Magic', value: false },
+{ answer: "Kareem", value: true }
 ]
 },
 {
 question: "What does 'reset' in CSS mean?",
 answers: [
-{ answer: 'Resets the default browser styling', value: true },
-{ answer: 'Normalizes styles accross all browsers', value: false },
-{ answer: 'Removes inline CSS styles', value: false },
-{ answer: 'Start the project over', value: false }
+{ answer: 'Who won most NBA Title in 1990s', value: true },
+{ answer: 'Pistons', value: false },
+{ answer: 'Lakers', value: false },
+{ answer: 'Bulls', value: false }
 ]
 },
 {
-question: 'What does z-index do?',
+question: 'How many Champions ships Lakers won?',
 answers: [
-{ answer: 'Controls the vertical stacking order of elements that overlap', value: true },
-{ answer: 'Moves elements off screen', value: false },
-{ answer: 'Hides elements from the screen', value: false },
-{ answer: 'Controls the horizontal stacking order of elements that overlap', value: false }
+{ answer: '15', value: false },
+{ answer: '18', value: false },
+{ answer: '16', value: true },
+{ answer: '9', value: false }
 ]
 },
 {
-question: 'What is the box model?',
+question: 'What NBA team Jordan play for?',
 answers: [
-{ answer: 'All HTML elements can be considered as boxes', value: true },
-{ answer: 'A way of stacking HTML elements', value: false },
-{ answer: 'A way of styling HTML elements', value: false },
-{ answer: 'Creates a way to position the browser grid', value: false }
+{ answer: 'Bulls', value: true },
+{ answer: 'Lakers', value: false },
+{ answer: 'Celtics', value: false },
+{ answer: 'Knics', value: false }
 ]
 }
 ];
