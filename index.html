@@ -2,56 +2,33 @@
 <html lang="en-us">
 
 <head>
-
+    <title>Trivia Game</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Basic Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
 
 <body>
 
     <div class="container">
 
-        <h1>Totally Trivial Trivia!</h1>
+        <h1>Trivia Game</h1>
 
-        <div id="quiz" class="main-content">
-
-            <button id="start" class="btn">Start</button>
-
-            <!-- Time Remaining -->
-            <div id="time"></div>
-
-            <!-- Questions & Answers -->
-            <div id="question1"></div>
-            <div id="answer1"></div>
-            <div id="question2"></div>
-            <div id="answer2"></div>
-            <div id="question3"></div>
-            <div id="answer3"></div>
-            <div id="question4"></div>
-            <div id="answer4"></div>
-            <div id="question5"></div>
-            <div id="answer5"></div>
-            <div id="question6"></div>
-            <div id="answer6"></div>
-            <div id="question7"></div>
-            <div id="answer7"></div>
-            <div id="submit"></div>
-
-            <!-- Results -->
-            <div id="resultsMessage"></div>
-            <div id="correct"></div>
-            <div id="incorrect"></div>
-            <div id="unanswered"></div>
+        <div class="wraper">
+            <div id="timeleft"></div>
+            <div id="questionblock"></div>
+            <div id="answerblock"></div>
+            <button" class="btn btn-success" id="start">start Game</button><br>
+            <button" class="btn btn-success" id="reset">Play Again</button><br>
 
         </div>
-
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+        
 
 </body>
 

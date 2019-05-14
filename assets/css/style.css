@@ -9,8 +9,7 @@ body {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 16px;
     line-height: 24px;
-    background: url("../images/NBA.jpg");
-
+    background: url("../images/background.jpg");
 }
 
 h1 {
@@ -28,7 +27,7 @@ h1 {
     text-align: center;
     margin: 0 15%;
     padding: 30px;
-    background-color: #7177d3
+    background: #fffd91
 }
 
 .main-content {
